@@ -2,7 +2,7 @@ server:
   port: 9527
 spring:
   application:
-    name: MICROSERVICE-ZUUL-GATEWAY-DEV
+    name: application-zuul-test
 eureka:
   client:
     service-url:
