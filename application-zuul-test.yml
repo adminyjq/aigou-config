@@ -14,5 +14,7 @@ zuul:
   routes:
     plat.serviceId: aigou-plat-test
     plat.path: /plat/**
+    product.serviceId: aigou-product-test
+    product.path: /product/**
   ignored-services: "*"
   prefix: "/services"

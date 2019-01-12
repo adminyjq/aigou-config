@@ -14,5 +14,7 @@ zuul:
   routes:
     plat.serviceId: aigou-plat-dev #这个名字需要和消费者的名字对应 dev对应的就是dev  test对应的就是test
     plat.path: /plat/**
+    product.serviceId: aigou-product-dev #这个名字需要和消费者的名字对应 dev对应的就是dev  test对应的就是test
+    product.path: /product/**
   ignored-services: "*"
   prefix: "/services"
