@@ -12,7 +12,7 @@ eureka:
     prefer-ip-address: true
 zuul:
   routes:
-    plat.serviceId: aigou-plat-dev
+    plat.serviceId: aigou-plat-dev #这个名字需要和消费者的名字对应 dev对应的就是dev  test对应的就是test
     plat.path: /plat/**
   ignored-services: "*"
   prefix: "/services"
