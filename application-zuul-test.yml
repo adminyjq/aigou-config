@@ -16,5 +16,7 @@ zuul:
     plat.path: /plat/**
     product.serviceId: aigou-product-test
     product.path: /product/**
+    common.serviceId: aigou-common-test
+    common.path: /common/**
   ignored-services: "*"
   prefix: "/services"
